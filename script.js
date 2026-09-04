@@ -6,71 +6,72 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta deve ser escrita aqui",
+        enunciado: "O ciclo escolar acabou e você precisa decidir seu primeiro passo em relação a vida adulta. Qual caminho você escolhe?",
         alternativas: [
             {
-                texto: "alternativa letra A deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra A deve estar aqui "
+                texto: "Fazer uma faculdade na área de nutrição.",
+                afirmacao: "atuar num trabalho relacionado a nutrição, como na sonda hospitalar"
             },
             {
-                texto: "alternativa letra B deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra B deve estar aqui "
+                texto: "Conseguir uma renda fixa, ingressando no mercado de trabalho",
+                afirmacao: "conseguir mais condições para investir ainda mais"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você conseguiu uma oportunidade para ter carteira de motorista. Qual você prefere para ajudar na vida profissional?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Fazer carteira de moto",
+                afirmacao: "atuar como motoboy"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Fazer carteira de carro",
+                afirmacao: "atuar como uber-taxi"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você não fez uma faculdade, decidiu fazer alguns cursos no SENAC. Qual ajuda mais no futuro profissional?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Gastronomia",
+                afirmacao: "ajuda mais em relação a criação do próprio negócio"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "informática",
+                afirmacao: "Ajuda a entrar numa corporativa"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você enfrenta problemas no trabalho em relação a fofocas. Como lida com isso?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Relatar aos encarregados",
+                afirmacao: "Resolver da melhor forma"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Tentar resolver sozinho",
+                afirmacao: "Resolve do seu jeito e não envolve mais pessoas"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Se a rotina for pesada demais. Como você resolve?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Troco a rotina.",
+                afirmacao: "trocar o que pode para ter mais tempo de lazer"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Tento dormir mais cedo.",
+                afirmacao: "Priorizar seu bem-estar e redefinir seus limites transformou sua relação com o tempo e com a produtividade."
             }
         ]
-    },
+    }
 ];
+
 
 
 let atual = 0;
